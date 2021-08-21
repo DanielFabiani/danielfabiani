@@ -221,7 +221,7 @@ p{
 }
 
 .hero-image-content h1{
-    background-image:url(/assets/img/blue-texture.jpg);
+    background-image:url(assets/img/blue-texture.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
