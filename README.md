@@ -26,3 +26,4 @@ Mis soft skills
 
 - 📫 Me puedes escribir a →  [danielfabiani.dev@gmail.com](mailto:danielfabiani.dev@gmail.com)
 - 💻 O visita mi sitio personal 🤜 https://danielfabiani.netlify.app/ y déjame un ❤️  si te gusto
+- También te dejo mi perfil de Linkedin
