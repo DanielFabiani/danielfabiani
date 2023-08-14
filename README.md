@@ -9,13 +9,11 @@
 <p align="left">  
 
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="30" height="30"/>
-  <p>Bootstrap</p>
+  Bootstrap
 
   
-
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="30" height="30"/>
-  <p>Bootstrap</p>
-
+  Bootstrap
 </p>
 
  
