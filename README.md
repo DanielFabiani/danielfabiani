@@ -12,7 +12,7 @@
   <p>Bootstrap</p>
   </div>
   
-  <div style="display: flex; align-items: center; justify-content: center;">
+  <div>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="30" height="30"/>
   <p>Bootstrap</p>
   </div>
