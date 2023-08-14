@@ -6,7 +6,7 @@
 
 <h3 align="left">Mis Skills tecnológicos:</h3>
 
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; width: 300px; height: 300px;">
+<div style="display: flex; align-items: center; justify-content: center; width: 400px; height: 400px;">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="20" height="20"/>
   <p>Bootstrap</p>
 </div>
