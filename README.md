@@ -7,15 +7,15 @@
 <h3 align="left">Mis Skills tecnológicos:</h3>
 
 <p align="left">  
-  <div>
+
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="30" height="30"/>
   <p>Bootstrap</p>
-  </div>
+
   
-  <div>
+
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="30" height="30"/>
   <p>Bootstrap</p>
-  </div>
+
 </p>
 
  
