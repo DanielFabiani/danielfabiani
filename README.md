@@ -2,12 +2,13 @@
 <h2 align="left">👋  Hola, Soy Daniel</h2>
 
 💻 Soy Desarrollador Web con experiencia en el stack SERN (Sequelize | Express | React | Node). Con enfoque al Frontend para así crear aplicaciones web interactivas y dinámicas, generando experiencias únicas para los usuarios. 
-
+<p>
 He trabajado en proyectos personales para mejorar mis habilidades.
 Trabajo con metodología ágiles enfocado en la solución de problemas.
 Soy minimalista, organizado y empatico.
-
 Busco oportunidades para trabajar en equipos colaborativos y seguir creciendo en el desarrollo web. ¡Contáctame y colaboremos juntos!
+</p>
+
 ---
 
 <h3 align="left">Mis Skills tecnológicos:</h3>
