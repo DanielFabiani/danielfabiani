@@ -1,5 +1,5 @@
 
-<img src="[https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg](https://photos.google.com/photo/AF1QipMhJnrMpwqzM7bLLGOVutNOXIODaZpBkLZT6vg2)"/>
+<img src="https://photos.google.com/photo/AF1QipMhJnrMpwqzM7bLLGOVutNOXIODaZpBkLZT6vg2.jpg"/>
 
 <h2 align="left">👋  Hola, Soy Daniel Fabiani</h2>
 
