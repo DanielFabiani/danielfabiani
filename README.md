@@ -1,5 +1,5 @@
 
-<img src="https://photos.google.com/photo/AF1QipMhJnrMpwqzM7bLLGOVutNOXIODaZpBkLZT6vg2.jpg"/>
+<img src="https://photos.google.com/photo/AF1QipMhJnrMpwqzM7bLLGOVutNOXIODaZpBkLZT6vg2.jpg" alt="banner"/>
 
 <h2 align="left">👋  Hola, Soy Daniel Fabiani</h2>
 
