@@ -1,4 +1,4 @@
-<img src="[https://photos.google.com/photo/AF1QipMhJnrMpwqzM7bLLGOVutNOXIODaZpBkLZT6vg2](https://photos.google.com/photo/AF1QipMhJnrMpwqzM7bLLGOVutNOXIODaZpBkLZT6vg2)" alt="banner"/>
+<img src="https://photos.google.com/photo/AF1QipMhJnrMpwqzM7bLLGOVutNOXIODaZpBkLZT6vg2" alt="banner"/>
 
 ## 👋  Hola, Soy Daniel Fabiani
 
