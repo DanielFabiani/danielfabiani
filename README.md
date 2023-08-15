@@ -1,5 +1,5 @@
 
-<h2 align="left">👋  Hola, Soy Daniel Fabiani</h2>
+<h2 align="left">👋  Hola, Soy Daniel</h2>
 
 💻 Desarrollador Web Front end, creo aplicaciones web interactivas y dinámicas. He trabajado en proyectos personales para mejorar mis habilidades y generar experiencia. Busco oportunidades para trabajar en equipos colaborativos y seguir creciendo en el desarrollo web. Mi pasión por la tecnología me impulsa a crear experiencias únicas para los usuarios.
 
