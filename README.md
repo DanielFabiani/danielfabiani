@@ -1,5 +1,5 @@
 
-<img src="https://live.staticflickr.com/65535/53119391924_09ca531598_h.jpg" alt="banner"/>
+<img src="https://live.staticflickr.com/65535/53119391924_09ca531598_h.jpg" alt="banner" width="100vw" height="40"/>
 
 <h2 align="left">👋  Hola, Soy Daniel Fabiani</h2>
 
