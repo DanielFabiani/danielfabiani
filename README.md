@@ -1,5 +1,5 @@
 
-<h2 align="left">👋  Hola, Soy Daniel</h2>
+<h2 align="left" style="color: red;">👋  Hola, Soy Daniel</h2>
 
 💻 Soy Desarrollador Web con experiencia en el stack SERN (Sequelize | Express | React | Node). Con enfoque al Frontend para así crear aplicaciones web interactivas y dinámicas, generando experiencias únicas para los usuarios. 
 <p>
