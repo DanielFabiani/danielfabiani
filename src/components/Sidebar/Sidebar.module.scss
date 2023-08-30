@@ -1,0 +1,112 @@
+.navBar {
+  background: #0C1C2C;
+  width: 110px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* position: absolute;
+  top: 0; */
+  /* justify-content: space-around; */
+  text-align: center;
+  z-index: 3;
+  min-height: 500px; 
+
+  .logo{
+    margin-top: 40px;
+    text-decoration: none;
+
+    h2{
+      font-size: 3.5rem;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text;
+      background-image: linear-gradient(to right, #0071BD, #1BA6DC,  #ffb703);
+      margin: 0;
+    }
+    p{
+      letter-spacing: 0.20em;
+      font-size: 1.3rem;
+      color: #E2D5FE ;
+      margin: 0;
+      margin-top: -10px;
+      text-align: center;
+    }
+  }
+}
+
+nav {
+  margin-top: 62px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 310px;
+  width: 100%;
+
+  a {
+    font-size: 20px;
+    margin: 22px 0;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+
+    i {
+      transition: all 0.3s ease-out;
+    }
+    &:hover {
+      color: #F6F7F9;
+
+      svg {
+        opacity: 0;
+      }
+
+      &:after {
+        opacity: 1;
+      }
+    }
+
+    &:after {
+      content: "";
+      font-size: 16px;
+      letter-spacing: 2px;
+      text-align: center;
+      position: absolute;
+      bottom: 0;
+      display: block;
+      width: 100%;
+      opacity: 0;
+      transition: all 0.3s ease-out;
+    }
+
+    &:first-child {
+      &::after {
+        content: "Home";
+      }
+    }
+  }
+
+  a.aboutLink {
+    &:after {
+      content: "About"
+    }
+  }
+  a.skillsLink {
+    &:after {
+      content: "Skills"
+    }
+  }
+  a.projectLink {
+    &:after {
+      content: "Works"
+    }
+  }
+  a.contactLink {
+    &:after {
+      content: "Contact"
+    }
+  }
+  a.active {
+    svg {
+      color: #E2D5FE;
+    }
+  }
+}
