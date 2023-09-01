@@ -1,12 +1,14 @@
 /* eslint-disable react/no-unescaped-entities */
+import './index.scss';
 import { Link } from 'react-router-dom'
-import style from './Home.module.scss'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
+import Logo from './Logo/Logo';
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const nameArray = [
+    '',
     'd',
     'a',
     'n',
@@ -22,6 +24,7 @@ const Home = () => {
     'n',
     'i',
   ]
+
   const jobArray = [
     'w',
     'e',
@@ -38,9 +41,26 @@ const Home = () => {
     'r',
   ]
 
+  /* useEffect(() => {
+    return setTimeout(() => {
+      setLetterClass('text-animate-hover')
+    }, 4000)
+  }, []) */
+
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      setLetterClass('text-animate-hover');
+    }, 4000);
+  
+    // Función de limpieza para cancelar el timeout si el componente se desmonta
+    return () => {
+      clearTimeout(timeoutId);
+    };
+  }, []);
+
   return (
-    <div className={`${style.homeContainer} ${style.homePage}`}>
-      <div className={style.textZone}>
+    <div className="container home-page">
+      <div className="text-zone">
         <h1>
           <span className={letterClass}>H</span>
           <span className={`${letterClass} _12`}>i,</span>
@@ -51,21 +71,22 @@ const Home = () => {
           <AnimatedLetters
             letterClass={letterClass}
             strArray={nameArray}
-            idx={15}
+            idx={16}
           />
         </h1>
         <h1>
           <AnimatedLetters
             letterClass={letterClass}
             strArray={jobArray}
-            idx={22}
+            idx={23}
           />
         </h1>
         <h2>FRONTEND DEVELOPER | JAVASCRIPT | FULLSTACK WEB</h2>
-        <Link to="/contact" className={style.flatButton}>
+        <Link to="/contact" className="flat-button">
           CONTACT ME
         </Link>
       </div>
+      <Logo />
     </div>
   )
 }

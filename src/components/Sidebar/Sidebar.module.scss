@@ -4,11 +4,11 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-/*   position: absolute;
-  top: 0; */
+  position: absolute;
+  top: 0;
   justify-content: space-evenly;
   text-align: center;
-/*   z-index: 3; */
+  z-index: 3;
   min-height: 500px; 
 
   .logo{

@@ -1,12 +1,12 @@
 import { Outlet } from 'react-router-dom'
 import Sidebar from '../Sidebar/Sidebar'
-import style from './Layout.module.scss'
+import './index.scss'
 
 function Layout() {
   return (
-    <div className={style.layoutContainer}>
+    <div className='App'>
       <Sidebar />
-      <div className={style.page}>
+      <div className='page'>
 
         <Outlet />
 

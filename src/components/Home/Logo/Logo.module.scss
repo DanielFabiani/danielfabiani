@@ -1,0 +1,33 @@
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35%
+}
+
+.circularText {
+  width: 280px;
+  height: auto;
+  position: absolute;
+  animation: spin 20s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.name {
+  position: relative;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 5rem;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, #0071BD, #1BA6DC,  #ffb703);
+  margin: 0;
+}
