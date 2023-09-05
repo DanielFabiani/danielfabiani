@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
 import './index.scss'
 import myPhoto from '../../assets/img/myPhoto.png'
+import Loader from 'react-loaders'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -18,6 +19,8 @@ const About = () => {
   }, [])
 
   return (
+    <>
+
     <div className="container about-page">
       <div className="text-zone">
         <h1>
@@ -42,16 +45,11 @@ const About = () => {
           adapt easily. I have experience working with agile methodologies like
           SCRUM, using tools like Trello or Jira for development.
         </p>
-        <p>
-          I'm looking for opportunities to work in collaborative teams and
-          continue growing in web development. Contact me, and let's collaborate
-          together! 😊🚀
-        </p>
         <a
           href="https://drive.google.com/file/d/1sOq500bq4K5Hgp3JBVrfFVumXiC521s0/view?usp=drive_link"
           target="_blank"
-          
-          className="flat-button" rel="noreferrer"
+          rel="noreferrer"
+          className="flat-button" 
         >
           DOWNLOAD MY CV
         </a>
@@ -120,6 +118,8 @@ const About = () => {
         </div>
       </div>
     </div>
+      <Loader type="pacman" />
+    </>
   )
 }
 

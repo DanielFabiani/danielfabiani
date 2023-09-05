@@ -1,0 +1,169 @@
+
+.contact-form {
+  width: 100%;
+  margin-top: 20px;
+
+  ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      margin-bottom: 10px;
+      overflow: hidden;
+      display: block;
+      position: relative;
+      opacity: 0;
+      animation: fadeInUp 2s 2s;
+      animation-fill-mode: forwards;
+      clear: both;
+      
+    }
+
+    li.half {
+      width: 49%;
+      margin-left: 2%;
+      float: left;
+      clear: none;
+
+      &:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+
+  input[type='text'],
+  input[type='email'] {
+    width: 100%;
+    border: 0;
+    background: #1D98C5;
+    height: 32px;
+    font-size: 16px;
+    color: #F6F7F9;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    width: 100%;
+    border: 0;
+    background: #1D98C5;
+    height: 80px;
+    font-size: 16px;
+    color: #F6F7F9;
+    padding: 16px;
+    min-width: 150px;
+    font-family: 'Helvetica Neue';
+  }
+
+  .flat-button {
+    margin-top: 8px;
+    color: #FFB703;
+    background: 0 0;
+    font: 11px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 1px solid #FFB703;
+    float: right;
+    border-radius: 4px;
+    cursor: pointer;
+
+    &:hover {
+      background: #FFB703;
+      color: #0C1C2C;
+    }
+  }
+
+  input::placeholder {
+    color: rgba(246, 247, 249, 0.3);
+  }
+  
+  /* Prefijo de proveedor para Webkit (Safari y Chrome) */
+  input::-webkit-input-placeholder {
+    color: rgba(246, 247, 249, 0.3);
+  }
+  
+  /* Prefijo de proveedor para Firefox */
+  input::-moz-placeholder {
+    color: rgba(246, 247, 249, 0.3);
+  }
+  textarea::placeholder {
+    color: rgba(246, 247, 249, 0.3);
+    font-family: 'Helvetica Neue';
+  }
+  
+  /* Prefijo de proveedor para Webkit (Safari y Chrome) */
+  textarea::-webkit-input-placeholder {
+    color: rgba(246, 247, 249, 0.3);
+    font-family: 'Helvetica Neue';
+  }
+  
+  /* Prefijo de proveedor para Firefox */
+  textarea::-moz-placeholder {
+    color: rgba(246, 247, 249, 0.3);
+    font-family: 'Helvetica Neue';
+  }
+}
+
+.map-wrap {
+  background-color: rgba(8, 253, 216, 0.1);
+  float: right;
+  width: 53%;
+  height: 100vh;
+  margin-left: 18px;
+
+}
+.leaflet-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  animation: backInRight 1s 1.2s;
+  animation-fill-mode: forwards;
+}
+
+
+.info-map {
+  position: absolute;
+  background-color: #0C1C2C;
+  top: 50px;
+  right: 27%;
+  z-index: 999999;
+  width: fit-content;
+  padding: 25px;
+  color: #F6F7F9;
+  font-family: 'Helvetica';
+  font-size: 16px;
+  font-weight: 300;
+  opacity: 0;
+  animation: fadeIn 1s 1.5s;
+  animation-fill-mode: forwards;
+
+  a {
+    font-size: 14px;
+    display: block;
+    padding-top: 12px;
+    color: #FFB703;
+    text-decoration: none;
+  }
+}
+
+.custom-popup {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1200px) {
+  .map-wrap {
+    float: none;
+    margin: 0;
+    width: 100%;
+    height: 400px;
+  }
+  
+  .info-map {
+    display: none;
+  }
+}

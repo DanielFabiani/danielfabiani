@@ -1,5 +1,4 @@
 
-
 .container {
   width: 100%;
   will-change: contents;
@@ -15,7 +14,8 @@
   animation-delay: 1s;
 }
 
-.about-page {
+.about-page,
+.contact-page {
   width: 100%;
   display: flex;
   align-items: center;
@@ -51,9 +51,6 @@
       }
       &:nth-of-type(3) {
         animation-delay: 1.7s;
-      }
-      &:nth-of-type(4) {
-        animation-delay: 1.9s;
       }
     }
 
