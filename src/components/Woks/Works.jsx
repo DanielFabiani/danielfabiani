@@ -2,7 +2,9 @@ import Loader from 'react-loaders'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
 import { useEffect, useState } from 'react'
-import worksData from '../../data/works.json'
+import WorksCarousel from '../WorksCarousel/WorksCarousel'
+/* import worksData from '../../data/works.json' */
+
 
 const Works = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -17,7 +19,7 @@ const Works = () => {
     }
   }, [])
 
-  const renderWorks = (works) => {
+  /* const renderWorks = (works) => {
     return (
       <div className="images-container">
         {works.map((work, idx) => {
@@ -27,9 +29,7 @@ const Works = () => {
               <div className="content">
                 <p className="title">{work.title}</p>
                 <h4 className="description">{work.description}</h4>
-                <button className='btn'
-                  onClick={(()=> window.open(work.url))}
-                >
+                <button className="btn" onClick={() => window.open(work.url)}>
                   View
                 </button>
               </div>
@@ -38,7 +38,9 @@ const Works = () => {
         })}
       </div>
     )
-  }
+  } */
+
+/*   const [emblaRef] = useEmblaCarousel({ loop: true }) */
 
   return (
     <>
@@ -50,7 +52,41 @@ const Works = () => {
             idx={15}
           />
         </h1>
-        <div>{renderWorks(worksData.works)}</div>
+        <div className="carousel-container">
+          <WorksCarousel />
+        </div>
+
+        {/* <div className="embla" ref={emblaRef}>
+          <div className="embla__container">
+            <div className="embla__slide">
+              {
+                worksData.works.map((work, idx) => {
+                return (
+                  <div className="image-box" key={idx}>
+                    <img
+                      src={work.cover}
+                      alt="cover image"
+                      className="work-image"
+                    />
+                    <div className="content">
+                      <p className="title">{work.title}</p>
+                      <h4 className="description">{work.description}</h4>
+                      <button
+                        className="btn"
+                        onClick={() => window.open(work.url)}
+                      >
+                        View
+                      </button>
+                    </div>
+                  </div>
+                )
+                })
+              }
+            </div>
+          </div>
+        </div> */}
+        {/* <div>{renderWorks(worksData.works)}</div> */}
+        
       </div>
       <Loader type="pacman" />
     </>
