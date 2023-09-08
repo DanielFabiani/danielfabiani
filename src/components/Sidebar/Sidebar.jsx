@@ -49,7 +49,7 @@ const Sidebar = () => {
           exact="true"
           activeclassname="active"
           className={style.projectLink}
-          to="/projects"
+          to="/works"
         >
           <FontAwesomeIcon icon={faCode} color="#FFB703" />
         </NavLink>

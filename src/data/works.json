@@ -1,0 +1,25 @@
+{
+  "works": [
+    {
+      "cover": "/works/gamesApp/gamesApp.png",
+      "title": "Video games App",
+      "description": "A Full Stack Web Application dedicated to video games, allows users to explore and discover information about various video games through an intuitive UI.",
+      "techs": "Javascript, React, Redux, Css, Node.js, Express, Sequelize",
+      "url": "https://videogames-spa-project.vercel.app/"
+    },
+    {
+      "cover": "/works/ticketShow/ticketShow.png",
+      "title": "TicketShow",
+      "description": "A ticket-selling application for events that features payment gateway integration, local and third-party authentication, combined filters, a review/rating system, and an administration dashboard. The application was created with the intention of supporting emerging artists in promoting their events.",
+      "techs": "Javascript, React, Redux, Tailwind, Node.js, Express, Sequelize, Figma, Firebase",
+      "url": "https://ticket-show.netlify.app/"
+    },
+    {
+      "cover": "/works/rickYMorty/rickYMorty.png",
+      "title": "Rick & Morty App",
+      "description": "The Rick and Morty app is a platform that allows users to explore information about the characters and locations from the series. Fans of Rick and Morty can navigate through an intuitive interface and discover interesting data about their favorite characters.",
+      "techs": "Javascript, React, Redux, Css, Node.js, Express, Sequelize",
+      "url": "https://rick-and-morty-app-lime.vercel.app/"
+    }
+  ]
+}
