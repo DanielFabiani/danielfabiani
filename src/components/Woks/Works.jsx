@@ -40,7 +40,6 @@ const Works = () => {
     )
   } */
 
-/*   const [emblaRef] = useEmblaCarousel({ loop: true }) */
 
   return (
     <>

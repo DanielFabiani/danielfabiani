@@ -8,45 +8,11 @@
   h1.page-title {
     margin-left: 140px;
     width: 100%;
-    margin-bottom: 32px;
+    margin-bottom: 12px;
   }
 
   .carousel-container {
-    margin-bottom: 100px;
+    margin-bottom: 60px;
+    margin-left: 70px;
   }
 }
-
-
-//-----
-/* .images-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 90%;
-  }
-  .image-box {
-    margin: 12px;
-    position: relative;
-    height: 250px;
-    overflow: hidden;
-    border-radius: 10px;  
-
-    .work-image {
-      position: absolute;
-      z-index: 2;
-      width: 380px;
-      height: 230px;
-      object-fit: cover;
-      border-radius: 10px;
-    }
-  
-    .content {
-      position: absolute;
-      width: 100%;
-      z-index: 3;
-      padding: 10px 20px;
-      transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-      background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 1));
-      
-    }
-  } */

@@ -1,23 +1,34 @@
 /* eslint-disable react/prop-types */
-import { useState, useEffect, useCallback } from 'react'
-import useEmblaCarousel from 'embla-carousel-react'
+import { useState, useEffect, useCallback } from 'react';
+import { Link } from 'react-router-dom';
+import useEmblaCarousel from 'embla-carousel-react';
 /* import { DotButton, PrevButton, NextButton } from './CarouselButtons' */
-import { DotButton } from './CarouselButtons'
-import './WorksCarousel.css'
-import worksData from '../../data/works.json'
+import { DotButton } from './CarouselButtons';
+import './WorksCarousel.css';
+import worksData from '../../data/works.json';
+import Autoplay from 'embla-carousel-autoplay';
 
 const WorksCarousel = () => {
+  const autoplayOptions = {
+    delay: 3000,
+    stopOnMouseEnter: true,
+    stopOnInteraction: false,
+  };
+
   const options = {
     loop: true,
-  }
+  };
   // Calcular SLIDE_COUNT en función de la longitud del array de imágenes
   const images = worksData.works.map((img) => img.cover)
+
   const slide_count = images.length
   const slides = Array.from(Array(slide_count).keys())
 
-  const imageByIndex = (index) => images[index % images.length]
+  const imageByIndex = (index) => images[index % images.length];
 
-  const [emblaRef, emblaApi] = useEmblaCarousel(options)
+  const [emblaRef, emblaApi] = useEmblaCarousel(options, [
+    Autoplay(autoplayOptions),
+  ]);
   /* const [prevBtnDisabled, setPrevBtnDisabled] = useState(true)
   const [nextBtnDisabled, setNextBtnDisabled] = useState(true) */
   const [selectedIndex, setSelectedIndex] = useState(0)
@@ -61,18 +72,34 @@ const WorksCarousel = () => {
       <div className="embla">
         <div className="embla__viewport" ref={emblaRef}>
           <div className="embla__container">
-            {slides.map((index) => (
-              <div className="embla__slide" key={index}>
-                <div className="embla__slide__number">
-                  <span>{index + 1}</span>
-                </div>
-                <img
-                  className="embla__slide__img"
-                  src={imageByIndex(index)}
-                  alt="Work preview"
-                />
-              </div>
-            ))}
+            {
+              slides.map((index) => (
+                <div className="embla__slide" key={index}>
+                  <div className="embla__slide__number">
+                    <span>{index + 1}</span>
+                  </div>
+                    <Link to={`/WorkDetail/${index}`}>
+                      <img
+                        className="embla__slide__img"
+                        src={imageByIndex(index)}
+                        alt="Work preview"
+                      />
+                    </Link>
+                    {/* <div className="content">
+                      <p className="title">{worksDetails[index].title}</p>
+                      <p className="description">{worksDetails[index].description}</p>
+                      <p className="description">{worksDetails[index].techs}</p>
+                      <button
+                        className="btn"
+                        onClick={() => window.open(worksDetails[index].url)}
+                      >
+                        View
+                      </button>
+                    </div> */}
+                  </div>
+              ))
+            }
+            
           </div>
           <div className="embla__dots">
             {scrollSnaps.map((_, index) => (
@@ -86,7 +113,7 @@ const WorksCarousel = () => {
             ))}
           </div>
         </div>
-          {/* <div className="embla__buttons">
+        {/* <div className="embla__buttons">
             <PrevButton onClick={scrollPrev} disabled={prevBtnDisabled} />
             <NextButton onClick={scrollNext} disabled={nextBtnDisabled} />
           </div> */}
