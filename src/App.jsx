@@ -1,5 +1,6 @@
-import { Routes, Route } from 'react-router-dom'
-import './App.scss'
+import { Routes, Route } from 'react-router-dom';
+import './App.scss';
+import 'atropos/css';
 import Layout from './components/layout/layout'
 import Home from './components/Home/Home'
 import About from './components/About/About'

@@ -85,17 +85,6 @@ const WorksCarousel = () => {
                         alt="Work preview"
                       />
                     </Link>
-                    {/* <div className="content">
-                      <p className="title">{worksDetails[index].title}</p>
-                      <p className="description">{worksDetails[index].description}</p>
-                      <p className="description">{worksDetails[index].techs}</p>
-                      <button
-                        className="btn"
-                        onClick={() => window.open(worksDetails[index].url)}
-                      >
-                        View
-                      </button>
-                    </div> */}
                   </div>
               ))
             }

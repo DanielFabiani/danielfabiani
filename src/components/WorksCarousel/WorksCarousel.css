@@ -65,53 +65,6 @@
   bottom: 0;
 }
 
-.content {
-  position: absolute;
-  top: 300px;
-  width: 31%;
-  z-index: 3;
-  padding: 10px 20px;
-}
-
-.title {
-  margin-bottom: 0;
-  margin-top: 0;
-  color: #fff;
-  font-size: 24px;
-  font-weight: 500;
-  line-height: 24px;
-}
-
-.description {
-  font-size: 16px;
-  margin-bottom: 4px;
-  color: #fff;
-  font-weight: 400;
-}
-
-.btn {
-  margin-top: 30px;
-  margin-bottom: 10px;
-  padding: 0 23px;
-  height: 40px;
-  line-height: 34px;
-  border: 2px solid #FFB703;
-  border-radius: 4px;
-  font-size: 14px;
-  color: #F6F7F9;
-  background: transparent;
-  text-transform: uppercase;
-  font-weight: 600;
-  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-  cursor: pointer;
-}
-
-.btn:hover {
-  transform: translateY(-3px);
-  background: #FFB703;
-  color: #083B60;
-}
-
 .embla__buttons {
   display: flex;
   align-items: center;

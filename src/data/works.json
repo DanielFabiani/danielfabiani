@@ -10,7 +10,7 @@
     {
       "cover": "/works/ticketShow/ticketShow.png",
       "title": "TicketShow",
-      "description": "A ticket-selling application for events that features payment gateway integration, local and third-party authentication, combined filters, a review/rating system, and an administration dashboard. The application was created with the intention of supporting emerging artists in promoting their events.",
+      "description": "This is an ticket-selling application for events that features payment gateway integration, local and third-party authentication, combined filters, a review/rating system, and an administration dashboard. The application was created with the intention of supporting emerging artists in promoting their events.",
       "techs": "Javascript, React, Redux, Tailwind, Node.js, Express, Sequelize, Figma, Firebase",
       "url": "https://ticket-show.netlify.app/"
     },
