@@ -16,7 +16,8 @@
 
 .container.about-page,
 .container.contact-page,
-.container.works-page
+.container.works-page,
+.container.skills-page
 {
   width: 100%;
   display: flex;
@@ -54,6 +55,7 @@
     flex-direction: column;
     justify-content: center;
     width: 40%;
+    text-align: justify;
   }
 
 

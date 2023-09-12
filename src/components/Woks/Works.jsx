@@ -19,27 +19,6 @@ const Works = () => {
     }
   }, [])
 
-  /* const renderWorks = (works) => {
-    return (
-      <div className="images-container">
-        {works.map((work, idx) => {
-          return (
-            <div className="image-box" key={idx}>
-              <img src={work.cover} alt="cover image" className="work-image" />
-              <div className="content">
-                <p className="title">{work.title}</p>
-                <h4 className="description">{work.description}</h4>
-                <button className="btn" onClick={() => window.open(work.url)}>
-                  View
-                </button>
-              </div>
-            </div>
-          )
-        })}
-      </div>
-    )
-  } */
-
 
   return (
     <>
@@ -54,38 +33,6 @@ const Works = () => {
         <div className="carousel-container">
           <WorksCarousel />
         </div>
-
-        {/* <div className="embla" ref={emblaRef}>
-          <div className="embla__container">
-            <div className="embla__slide">
-              {
-                worksData.works.map((work, idx) => {
-                return (
-                  <div className="image-box" key={idx}>
-                    <img
-                      src={work.cover}
-                      alt="cover image"
-                      className="work-image"
-                    />
-                    <div className="content">
-                      <p className="title">{work.title}</p>
-                      <h4 className="description">{work.description}</h4>
-                      <button
-                        className="btn"
-                        onClick={() => window.open(work.url)}
-                      >
-                        View
-                      </button>
-                    </div>
-                  </div>
-                )
-                })
-              }
-            </div>
-          </div>
-        </div> */}
-        {/* <div>{renderWorks(worksData.works)}</div> */}
-        
       </div>
       <Loader type="pacman" />
     </>

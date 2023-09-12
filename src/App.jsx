@@ -7,6 +7,7 @@ import About from './components/About/About'
 import Contact from './components/Contact/Contact'
 import Works from './components/Woks/Works'
 import WorkDetail from './components/WorkDetail/WorkDetail'
+import Skills from './components/Skills/Skills';
 
 
 
@@ -19,6 +20,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/skills' element={<Skills />} />
           <Route path='/works' element={<Works />} />
           <Route path='/WorkDetail/:index' element={<WorkDetail />} />
         </Route>

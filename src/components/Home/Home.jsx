@@ -83,7 +83,7 @@ const Home = () => {
             idx={23}
           />
         </h1>
-        <h2>FRONTEND DEVELOPER | JAVASCRIPT | FULLSTACK WEB</h2>
+        <h2>FRONTEND DEVELOPER | JAVASCRIPT | FULLSTACK WEB DEVELOPER</h2>
         <Link to="/contact" className="flat-button">
           CONTACT ME
         </Link>
