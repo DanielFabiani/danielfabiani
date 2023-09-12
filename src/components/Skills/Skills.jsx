@@ -3,7 +3,7 @@ import Loader from 'react-loaders'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
 import { useEffect, useState } from 'react'
-import { SiBootstrap, SiExpress, SiFigma, SiJavascript, SiJira, SiMaterialdesign, SiNextdotjs, SiNodedotjs, SiPostgresql, SiReact, SiRedux, SiSequelize, SiTailwindcss, SiTypescript } from 'react-icons/si'
+import { SiBootstrap, SiCss3, SiExpress, SiFigma, SiHtml5, SiJavascript, SiJira, SiMaterialdesign, SiNextdotjs, SiNodedotjs, SiPostgresql, SiReact, SiRedux, SiSequelize, SiTailwindcss, SiTypescript } from 'react-icons/si'
 import zustand1 from '../../assets/icons/zuztand1.png'
 
 const Skills = () => {
@@ -61,6 +61,8 @@ const Skills = () => {
             <li>{<SiRedux size={46} color="#8A0AFB" />}</li>
             <li>{<SiNextdotjs size={46} color="#0d0c0c" />}</li>
             <li><img src={zustand1} alt="zustand logo" className='logo-zustand'/></li>
+            <li>{<SiHtml5 size={46} color="#E44D26" />}</li>
+            <li>{<SiCss3 size={46} color="#214CE4" />}</li>
             <li>{<SiTailwindcss size={46} color="#1BB2BB" />}</li>
             <li>{<SiBootstrap size={46} color="#8A0AFB" />}</li>
             <li>{<SiMaterialdesign size={46} color="#0d0c0c" />}</li>
