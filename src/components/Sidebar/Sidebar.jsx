@@ -2,22 +2,32 @@ import { Link, NavLink } from 'react-router-dom'
 import style from './Sidebar.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
+  faBars,
+  faClose,
   faCode,
   faEnvelope,
   faGear,
   faHome,
   faUser,
 } from '@fortawesome/free-solid-svg-icons';
+import { useState } from 'react';
 
 const Sidebar = () => {
+
+  const [showNav, setShowNav] = useState(false);
+
+
+
+
   return (
     <div className={style.navBar}>
       <Link className={style.logo} to="/">
         <h2>daniel</h2>
         <p>FABIANI</p>
       </Link>
-      <nav>
+      <nav className={showNav ? style.mobileNav : ''}>
         <NavLink
+          onClick={() => setShowNav(false)}
           exact="true"
           className={({ isActive }) =>
             isActive ? style.active : style.homeLink
@@ -28,6 +38,7 @@ const Sidebar = () => {
         </NavLink>
 
         <NavLink
+          onClick={() => setShowNav(false)}
           exact="true"
           activeclassname="active"
           className={style.aboutLink}
@@ -37,6 +48,7 @@ const Sidebar = () => {
         </NavLink>
 
         <NavLink
+          onClick={() => setShowNav(false)}
           exact="true"
           activeclassname="active"
           className={style.skillsLink}
@@ -46,6 +58,7 @@ const Sidebar = () => {
         </NavLink>
 
         <NavLink
+          onClick={() => setShowNav(false)}
           exact="true"
           activeclassname="active"
           className={style.projectLink}
@@ -55,6 +68,7 @@ const Sidebar = () => {
         </NavLink>
 
         <NavLink
+          onClick={() => setShowNav(false)}
           exact="true"
           activeclassname="active"
           className={style.contactLink}
@@ -62,6 +76,13 @@ const Sidebar = () => {
         >
           <FontAwesomeIcon icon={faEnvelope} color="#FFB703" />
         </NavLink>
+        <FontAwesomeIcon 
+          icon={faClose}
+          color='#FFB703'
+          size='3x'
+          className={style.closeIcon}
+          onClick={() => setShowNav(false)}
+        />
       </nav>
       <ul>
         <li>
@@ -95,6 +116,13 @@ const Sidebar = () => {
           </a>
         </li>
       </ul>
+      <FontAwesomeIcon 
+        onClick={() => setShowNav(true)}
+        icon={faBars}
+        color='#FFB703'
+        size='3x'
+        className={style.hamburgerIcon}
+      />
     </div>
   )
 }

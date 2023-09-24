@@ -31,3 +31,9 @@
   background-image: linear-gradient(to right, #0071BD, #1BA6DC,  #ffb703);
   margin: 0;
 }
+
+@media screen and (max-width: 1200px) {
+  .logoContainer {
+    display: none;
+  }
+}

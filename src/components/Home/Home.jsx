@@ -88,7 +88,7 @@ const Home = () => {
           CONTACT ME
         </Link>
       </div>
-      <Logo />
+      <Logo className='logo-mobile'/>
     </div>
     <Loader type="pacman" />
     </>

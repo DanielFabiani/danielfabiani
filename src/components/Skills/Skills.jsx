@@ -3,8 +3,9 @@ import Loader from 'react-loaders'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters/AnimatedLetters'
 import { useEffect, useState } from 'react'
-import { SiBootstrap, SiCss3, SiExpress, SiFigma, SiHtml5, SiJavascript, SiJira, SiMaterialdesign, SiNextdotjs, SiNodedotjs, SiPostgresql, SiReact, SiRedux, SiSequelize, SiTailwindcss, SiTypescript } from 'react-icons/si'
+import { SiBootstrap, SiCss3, SiExpress, SiFigma, SiHtml5, SiJavascript, SiJira, SiNextdotjs, SiNodedotjs, SiPostgresql, SiReact, SiRedux, SiSequelize, SiTailwindcss, SiTypescript } from 'react-icons/si'
 import zustand1 from '../../assets/icons/zuztand1.png'
+import materialUi from '../../assets/icons/materialUi.svg'
 
 const Skills = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -59,13 +60,13 @@ const Skills = () => {
             <li>{<SiTypescript size={46} color="#2D79C7" />}</li>
             <li>{<SiReact size={46} color="#60DBFB" />}</li>
             <li>{<SiRedux size={46} color="#8A0AFB" />}</li>
-            <li>{<SiNextdotjs size={46} color="#0d0c0c" />}</li>
             <li><img src={zustand1} alt="zustand logo" className='logo-zustand'/></li>
+            <li>{<SiNextdotjs size={46} color="#0d0c0c" />}</li>
             <li>{<SiHtml5 size={46} color="#E44D26" />}</li>
             <li>{<SiCss3 size={46} color="#214CE4" />}</li>
             <li>{<SiTailwindcss size={46} color="#1BB2BB" />}</li>
+            <li><img src={materialUi} alt="zustand logo" className='logo-material'/></li>
             <li>{<SiBootstrap size={46} color="#8A0AFB" />}</li>
-            <li>{<SiMaterialdesign size={46} color="#0d0c0c" />}</li>
             <li>{<SiFigma size={44} color="#fff" />}</li>
             <li>{<SiJira size={44} color="#2E88FF" />}</li>
             <li>{<SiNodedotjs size={44} color="#86CF33" />}</li>

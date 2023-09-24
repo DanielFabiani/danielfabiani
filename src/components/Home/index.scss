@@ -60,3 +60,42 @@
     color: #0C1C2C;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .home-page h1::before, 
+  .home-page h1::after {
+    display: none;
+  }
+
+  .home-page {
+    
+    .text-zone {
+      position: initial;
+      width: 100%; 
+      transform: none;
+      padding: 10px;
+      box-sizing: border-box;
+      margin-left: 8px;
+      margin-top: 2px;
+    }
+
+    h1 {
+      font-size: 46px;
+      margin: 0;
+      margin-top: -10px;
+      font-family: 'Coolvetica';
+      font-weight: 400;
+      letter-spacing: 0.050em;
+    }
+
+    .flat-button {
+      float: center;
+      display: block;
+      margin: 48px auto 0 auto;
+      width: 125px;
+    }
+
+    
+
+  }
+}

@@ -3,11 +3,6 @@ html {
 }
 
 body{
-  margin: 0;
-  padding: 0;
-}
-
-:root {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -26,6 +21,30 @@ body{
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+@media screen and (max-width: 1200px){
+  body {
+    overflow: visible;
+  }
+  
+}
+
+/* :root {
+
+  font: 300 11px/1.4 'Helvetica Neue', sans-serif;
+  line-height: 1.5;
+
+  color: #444;
+  background-color: #083B60;
+  overflow: hidden;
+  display: block;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+} */
 
 
 /* button {
