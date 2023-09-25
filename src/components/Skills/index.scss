@@ -6,6 +6,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-content: center;
+  align-items: center;
   
   .info-container {
     display: flex;
@@ -49,6 +50,37 @@
         padding: 4px;
       }
     }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container.skills-page {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .info-container {
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+
+  .icons-container {
+    margin-left: 0 !important;
+    width: 100% !important;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    
+  }
+
+  .icon-list {
+    justify-content: space-between; 
+    align-items: center;
+    align-content: space-around;
+    padding: 10px;
   }
 }
 
