@@ -95,6 +95,77 @@
 
 }
 
+@media screen and (max-width: 900px) {
+
+  .container.workDetail-page {
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 0 !important;
+
+    .image-box{
+      width: 95%;
+      height: 100vh;
+    }
+  
+    .work-image{
+      width: 100%;
+      position: relative;
+      top: 35%;
+    }
+  
+    .my-atropos {
+      margin-top: 30px;
+      width: 95%;
+      height: 95vh;
+      margin-bottom: 20px;
+    } 
+  
+    .work-info {
+      width: 90%;
+      padding: 10px;
+      margin: 2px !important;
+      height: 95vh;
+      margin-top: -30px !important;
+
+      .title {
+        font-size: 24px;
+        font-weight: 500;
+        margin-bottom: 12px;
+        line-height: 14px;
+      }
+
+      .description {
+        margin-bottom: 16px;
+        font-weight: 300;
+        font-size: 18px;
+      }
+
+      .techs {
+        margin-bottom: -18px;
+        font-size: 20px;
+        font-weight: 400;
+      }
+
+      .btn {
+        margin-top: 12px;
+        /* position: relative;
+        bottom: -80px;
+        margin-bottom: 10px; */
+        color: #FFB703;
+        background: #083B60;
+      }
+      
+      .btn:hover {
+        color: #FFB703;
+        background: #083B60;
+      }
+    }
+  }
+
+}
+
 
 
 

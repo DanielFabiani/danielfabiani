@@ -16,3 +16,23 @@
     margin-left: 70px;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .container.works-page {
+    width: 100% !important;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  h1.page-title {
+    margin-left: 0 !important;
+    
+  }
+
+  .carousel-container {
+    margin-left: 0px !important;
+    width: 100% !important;
+  }
+}
