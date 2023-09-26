@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 import './App.scss';
 import 'atropos/css';
-import Layout from './components/layout/layout'
+import Layout from './components/Layout/Layout'
 import Home from './components/Home/Home'
 import About from './components/About/About'
 import Contact from './components/Contact/Contact'
