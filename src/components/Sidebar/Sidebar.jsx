@@ -16,9 +16,6 @@ const Sidebar = () => {
 
   const [showNav, setShowNav] = useState(false);
 
-
-
-
   return (
     <div className={style.navBar}>
       <Link className={style.logo} to="/">

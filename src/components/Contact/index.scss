@@ -157,15 +157,13 @@
   font-size: 14px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
+
   .map-wrap {
-    float: none;
-    margin: 0;
-    width: 100%;
-    height: 400px;
+    display: none;
   }
-  
   .info-map {
     display: none;
   }
+
 }

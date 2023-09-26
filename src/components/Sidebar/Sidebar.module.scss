@@ -9,7 +9,7 @@
   justify-content: space-evenly;
   text-align: center;
   z-index: 3;
-  min-height: 500px; 
+  min-height: 500px;
 
   .logo{
     text-decoration: none;
@@ -137,6 +137,7 @@
   display: none;
 }
 
+
 @media screen and (max-width: 900px){
   .navBar{
     background: transparent;
@@ -200,8 +201,5 @@
       top: 15px;
       right: 15px;
     }
-
-    
   }
 }
-
