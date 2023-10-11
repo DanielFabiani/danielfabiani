@@ -7,7 +7,6 @@ import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
 
-
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
@@ -58,9 +57,9 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I'm looking for opportunities to work in collaborative teams and
-            continue growing in web development. Contact me, and let's
-            collaborate together! 😊🚀
+            I am seeking opportunities to grow as a web developer by working in
+            collaborative teams. Please reach out to me so we can collaborate!
+            😊🚀
           </p>
           <div className="contact-form">
             <form ref={refForm} onSubmit={sendEmail}>
@@ -123,8 +122,9 @@ const Contact = () => {
             <Marker position={[-34.57795456528493, -58.42702381272691]}>
               <Popup>
                 <span className="custom-popup">
-                Daniel lives somewhere around here. <br /> but i can work from anywhere.
-                  </span>
+                  Daniel lives somewhere around here. <br /> but i can work from
+                  anywhere.
+                </span>
               </Popup>
             </Marker>
           </MapContainer>
