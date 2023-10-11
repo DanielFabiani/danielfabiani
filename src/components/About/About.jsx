@@ -50,7 +50,8 @@ const About = () => {
             organizational, empathetic, and adaptable skills.
           </p>
           <a
-            href="/public/cv/Resume-Daniel-Fabiani-Frontend-Developer.pdf"
+            //href="/public/cv/Resume-Daniel-Fabiani-Frontend-Developer.pdf"
+            href="https://drive.google.com/file/d/1PGYWDvZjT5t_uXGIVEoUxDEEP-dYCyAd/view?usp=drive_link"
             target="_blank"
             rel="noreferrer"
             className="flat-button"
