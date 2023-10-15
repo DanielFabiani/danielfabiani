@@ -10,23 +10,30 @@
     {
       "cover": "/works/ticketShow/ticketShow.png",
       "title": "TicketShow",
-      "description": "This is an ticket-selling application for events that features payment gateway integration, local and third-party authentication, combined filters, a review/rating system, and an administration dashboard. The application was created with the intention of supporting emerging artists in promoting their events.",
+      "description": "This is a ticket-selling application for events that features payment gateway integration, local and third-party authentication, combined filters, a review/rating system, and an administration dashboard. The application was created to support emerging artists in promoting their events.",
       "techs": "Javascript, React, Redux, Tailwind, Node.js, Express, Sequelize, Figma, Firebase",
       "url": "https://ticket-show.netlify.app/"
     },
     {
       "cover": "/works/rickYMorty/rickYMorty.png",
       "title": "Rick & Morty App",
-      "description": "The Rick and Morty app is a platform that allows users to explore information about the characters and locations from the series. Fans of Rick and Morty can navigate through an intuitive interface and discover interesting data about their favorite characters.",
+      "description": "The Rick and Morty app is a user-friendly platform that enables fans of the series to explore various details about the show's characters and locations. With an intuitive interface, users can effortlessly navigate through the app and discover interesting facts about their favorite characters.",
       "techs": "Javascript, React, Redux, Css, Node.js, Express, Sequelize",
       "url": "https://rick-and-morty-app-lime.vercel.app/"
     },
     {
       "cover": "/works/myPortfolio/portfolio.png",
       "title": "My Portfolio",
-      "description": "This is my portfolio, crafted as an expression of my personality as a front-end developer, made with love and a lot of CSS 😄. Each project is a reflection of my dedication to web design and development, where creativity and functionality come together to deliver exceptional digital experiences..",
+      "description": "This portfolio reflects my personality as a front-end developer with a touch of love and a lot of CSS 😄. I created each project with utmost dedication to web design and development, where the perfect blend of creativity and functionality delivers exceptional digital experiences.",
       "techs": "Javascript, React, Css, Sass, Animation.Css",
       "url": "https://danielfabiani.vercel.app/"
+    },
+    {
+      "cover": "/works/reactMuiWeatherApp/reactMuiWeatherApp.png",
+      "title": "The Weather App",
+      "description": "I created a weather app for any city in the world. Highly recommended in the front-end community, I was intrigued and took up the challenge. Here's the final product.",
+      "techs": "Javascript, React, Css, Material UI",
+      "url": "https://react-weather-app-daniel-fabiani.vercel.app/"
     }
   ]
 }
