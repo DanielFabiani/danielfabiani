@@ -39,5 +39,5 @@ Busco oportunidades para trabajar en equipos colaborativos y seguir creciendo en
 ### Contáctame
 
 - 📫 Me puedes escribir a →  [danielfabiani.dev@gmail.com](mailto:danielfabiani.dev@gmail.com)
-- 💻 O visita mi sitio personal 🤜 https://danielfabiani.netlify.app/
+- 💻 O visita mi sitio personal 🤜 https://danielfabiani.vercel.app/
 - También te dejo mi perfil de https://www.linkedin.com/in/danielfabiani/
