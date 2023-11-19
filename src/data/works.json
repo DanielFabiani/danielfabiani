@@ -1,6 +1,13 @@
 {
   "works": [
     {
+      "cover": "https://live.staticflickr.com/65535/53329971829_0e0ba76f1b_k.jpg",
+      "title": "Nike landing page",
+      "description": "This landing page is a side project created for freelancers who need to establish an online presence to showcase their products and services. It boasts an impressive assortment of Nike products and offers essential information about the shop. You can easily access the latest sports footwear, apparel, and accessories while getting all the important details about the shop.",
+      "techs": "Javascript, React JS, Tailwind CSS, UI Design",
+      "url": "https://nike-landingpage-livid.vercel.app/"
+    },
+    {
       "cover": "/works/gamesApp/gamesApp.png",
       "title": "Video games App",
       "description": "A Full Stack Web Application dedicated to video games, allows users to explore and discover information about various video games through an intuitive UI.",
