@@ -1,43 +1,48 @@
 
-<h2>👋  Hola, Soy Daniel</h2>
+<div align='center'>
 
-💻 Soy Desarrollador Web con experiencia en el stack SERN (Sequelize | Express | React | Node). Con enfoque al Frontend para así crear aplicaciones web interactivas y dinámicas, generando experiencias únicas para los usuarios. 
-<p>
-He trabajado en proyectos personales para mejorar mis habilidades.
-Trabajo con metodología ágiles enfocado en la solución de problemas.
-Soy minimalista, organizado y empatico.
-Busco oportunidades para trabajar en equipos colaborativos y seguir creciendo en el desarrollo web. ¡Contáctame y colaboremos juntos!
-</p>
+<h1>Hi there! I'm Daniel 👋🏻</h1>
+<p>I'm a Full-stack Developer who specializes in finding digital solutions. I have experience using Javascript, TypeScript, and frameworks like React, NextJs, Express, and NodeJs. I'm also familiar with SQL databases and have worked with Sequelize. My forte is Front-end development where I design web applications with modern and appealing user interfaces using CSS, Tailwind, and other frameworks. I've worked with agile methodologies such as SCRUM and used Trello or Jira for development. I'm a team player and possess excellent organizational skills, empathy, and adaptability. I'm enthusiastic about working with teams and eager to continue growing my skills.</p>
 
----
+<h4> <a href=https://danielfabiani.vercel.app/>View Demo</a> </h4>
 
-<h3 align="left">Mis Skills tecnológicos:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> </p>
 
-- HTML 
-- CSS
-- Tailwind
-- Bootstrap
-- JavaScript
-- React
-- Redux
-- NextJs
-- Firebase  
-- Git
-- Figma 
+</div>
 
-<h3 align="left">Mis Softs Skills:</h3>
+- [Contact](#handshake-contact)
 
-- Trabajo en equipo
-- Resiliencia
-- Buena comunicación
-- Liberación de equipos
-- 👀 Siempre estoy trabajando y aprendiendo mas de las tecnologías para poder crear aplicaciones geniales y accesibles para todos 👽
 
----
+## :star2: About me
 
-### Contáctame
+### :camera: Screenshots
+<div align="center"> <a href="https://danielfabiani.vercel.app/"><img src="https://live.staticflickr.com/65535/53351949955_c8404049a3_k.jpg" alt='image' width='800'/></a> </div>
 
-- 📫 Me puedes escribir a →  [danielfabiani.dev@gmail.com](mailto:danielfabiani.dev@gmail.com)
-- 💻 O visita mi sitio personal 🤜 https://danielfabiani.vercel.app/
-- También te dejo mi perfil de https://www.linkedin.com/in/danielfabiani/
+
+### :space_invader: Tech Stack
+<summary>Front-end</summary> <ul>
+<li><a href="">JavaScript</a></li>
+<li><a href="">TypeScript</a></li>
+<li><a href="">ReactJs</a></li>
+<li><a href="">NextJs</a></li>
+<li><a href="">CSS</a></li>
+<li><a href="">Tailwind CSS</a></li>
+<li><a href="">Material UI</a></li>
+<li><a href="">Bootstrap</a></li>
+<li><a href="">Redux</a></li>
+<li><a href="">Zustand</a></li>
+</ul>
+<summary>Back-end</summary> <ul>
+<li><a href="">NodeJs</a></li>
+<li><a href="">Express</a></li>
+</ul>
+<summary>Database</summary> <ul>
+<li><a href="">SQL</a></li>
+<li><a href="">PostgresSQL</a></li>
+<li><a href="">Sequelize</a></li>
+</ul>
+
+## :handshake: Contact
+
+Daniel Fabiani - danielfabiani.dev@gmail.com
+
+Project Link: [https://danielfabiani.vercel.app/](https://danielfabiani.vercel.app/)
