@@ -1,6 +1,20 @@
 {
   "works": [
     {
+      "cover": "https://live.staticflickr.com/65535/53338686310_0173bf090a_k.jpg",
+      "title": "Next E-commerce Dashboard Admin",
+      "description": "The project contains both frontend and backend code for a full-stack e-commerce platform connected to a frontend store. The application includes a navigation bar to switch between different sections and segments of the e-commerce administrator panel. It allows for the management of products in the shop, including adding categories, colors, product sizes, and billboards to change and display in the shop. Additionally, it displays both rejected and approved orders, provides a summary of total sales, number of sales, and available products, and includes a sales graph for better visual representation.",
+      "techs": "TypeScript, NextJs, Zustand, React Hooks Form, Cloudinary, Tailwind, MySQL, Prisma",
+      "url": "https://next-ecommerce-admin-two.vercel.app/8f9efedd-6115-4ebe-a1c3-f18c9452dd12"
+    },
+    {
+      "cover": "https://live.staticflickr.com/65535/53338419633_50a4651378_k.jpg",
+      "title": "Next E-commerce Store",
+      "description": "This is an online shop that is connected to an administrator dashboard. The shop has a navigation bar that allows users to switch between different categories of products. Each product has a modal preview and a product detail page. The shop also provides filtering options within each category based on colors and sizes. Lastly, the website has a checkout and payment gateway integrated to ensure a seamless purchase process.",
+      "techs": "TypeScript, ReactJs, NextJs, Stripe, Tailwind, Rechart",
+      "url": "https://next-ecommerce-store-one.vercel.app/"
+    },
+    {
       "cover": "https://live.staticflickr.com/65535/53329971829_0e0ba76f1b_k.jpg",
       "title": "Nike landing page",
       "description": "This landing page is a side project created for freelancers who need to establish an online presence to showcase their products and services. It boasts an impressive assortment of Nike products and offers essential information about the shop. You can easily access the latest sports footwear, apparel, and accessories while getting all the important details about the shop.",
@@ -29,18 +43,18 @@
       "url": "https://rick-and-morty-app-lime.vercel.app/"
     },
     {
-      "cover": "/works/myPortfolio/portfolio.png",
-      "title": "My Portfolio",
-      "description": "This portfolio reflects my personality as a front-end developer with a touch of love and a lot of CSS 😄. I created each project with utmost dedication to web design and development, where the perfect blend of creativity and functionality delivers exceptional digital experiences.",
-      "techs": "Javascript, React, Css, Sass, Animation.Css",
-      "url": "https://danielfabiani.vercel.app/"
-    },
-    {
       "cover": "/works/reactMuiWeatherApp/reactMuiWeatherApp.png",
       "title": "The Weather App",
       "description": "I created a weather app for any city in the world. Highly recommended in the front-end community, I was intrigued and took up the challenge. Here's the final product.",
       "techs": "Javascript, React, Css, Material UI",
       "url": "https://react-weather-app-daniel-fabiani.vercel.app/"
+    },
+    {
+      "cover": "/works/myPortfolio/portfolio.png",
+      "title": "My Portfolio",
+      "description": "This portfolio reflects my personality as a front-end developer with a touch of love and a lot of CSS 😄. I created each project with utmost dedication to web design and development, where the perfect blend of creativity and functionality delivers exceptional digital experiences.",
+      "techs": "Javascript, React, Css, Sass, Animation.Css",
+      "url": "https://danielfabiani.vercel.app/"
     }
   ]
 }
