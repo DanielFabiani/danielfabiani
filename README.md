@@ -19,7 +19,7 @@
 
 
 ### :space_invader: Tech Stack
-<details> <summary>Client</summary> <ul>
+<summary>Front-end</summary> <ul>
 <li><a href="">JavaScript</a></li>
 <li><a href="">TypeScript</a></li>
 <li><a href="">ReactJs</a></li>
@@ -30,16 +30,16 @@
 <li><a href="">Bootstrap</a></li>
 <li><a href="">Redux</a></li>
 <li><a href="">Zustand</a></li>
-</ul> </details>
-<details> <summary>Server</summary> <ul>
+</ul>
+<summary>Back-end</summary> <ul>
 <li><a href="">NodeJs</a></li>
 <li><a href="">Express</a></li>
-</ul> </details>
-<details> <summary>Database</summary> <ul>
+</ul>
+<summary>Database</summary> <ul>
 <li><a href="">SQL</a></li>
 <li><a href="">PostgresSQL</a></li>
 <li><a href="">Sequelize</a></li>
-</ul> </details>
+</ul>
 
 ## :handshake: Contact
 
